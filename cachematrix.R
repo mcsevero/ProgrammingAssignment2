@@ -4,7 +4,7 @@
 
 ## This R script serves as a requirement for the R Programming course in 
 ## Coursera ('Data Science Specialization Course of Johns Hopkins University'). 
-## It contains two functions that performs the following tasks: 1) a function
+## It contains two functions that perform the following tasks: 1) a function
 ## that creates a special "matrix" object that can cache its inverse and 2) a 
 ## function that computes the inverse of the special "matrix" returned 
 ## by first function. Note that the functions can only be applied to squared 
@@ -16,7 +16,7 @@
 ## its inverse.
 makeCacheMatrix <- function(x = matrix()) {
   
-  # creates empty matrix that will contain the matrix
+  # creates empty matrix that will contain the cached matrix
   m <- NULL
   
   # sets the value of the matrix as its cached inverse value and gets that value  
